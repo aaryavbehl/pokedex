@@ -29,7 +29,6 @@ function CompareContainer({
       const key = Object.keys(type)[0];
       type[key][statType].forEach((stat: string) => {
         if (!statsSet.has(stat)) {
-          // @ts-ignore
           statsArray.push({ name: stat, image: pokemonTypes[stat].image });
           statsSet.add(stat);
         }

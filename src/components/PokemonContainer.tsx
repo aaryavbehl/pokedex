@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function PokemonContainer({ image }: { image: string }) {
   return (
     <>
@@ -14,8 +13,6 @@ export default function PokemonContainer({ image }: { image: string }) {
           </div>
         </div>
       </div>
-      {/* Uncomment the lines below for additional theming */}
-      
       {/* <div className="circle-container circle-container-2">
         <div className="outer-circle">
           <div className="inner-circle">
